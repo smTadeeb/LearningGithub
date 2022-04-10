@@ -35,10 +35,10 @@ class moreOps : public calculator
 		cout<<endl<<"Enter Second number: ";
 		cin>>b;
 		
-	    cout<<endl<<"The value of addition is: "<<addition(a,b);
-	    cout<<endl<<"The value of subtraction is: "<<subtraction(a,b);
+		cout<<endl<<"The value of addition is: "<<addition(a,b);
+		cout<<endl<<"The value of subtraction is: "<<subtraction(a,b);
 		cout<<endl<<"The value of multiplication is: "<<multiplication(a,b);
-		//cout<<endl<<"The value of division is: "<<division(a,b);
+		cout<<endl<<"The value of division is: "<<division(a,b);
 	}	
 };
 
@@ -50,9 +50,9 @@ int moreOps :: multiplication(int a, int b){
 	return (a*b);
 }
 
-// int moreOps :: division(int a, int b){
-// 	return (a/b);
-// }
+int moreOps :: division(int a, int b){
+	return (a/b);
+}
 
 //________
 int main()
